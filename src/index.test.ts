@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { UnifiedLogger, createLogger } from './index';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { createLogger, UnifiedLogger } from './index';
 
 describe('UnifiedLogger', () => {
 	let consoleDebugSpy: ReturnType<typeof vi.spyOn>;
